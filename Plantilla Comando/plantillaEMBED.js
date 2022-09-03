@@ -2,8 +2,8 @@ const { EmbedBuilder } = require('discord.js');
 const { ApplicationCommandType } = require('discord.js');
 
 module.exports = {
-	name: 'help',
-	description: "Enseña la ayuda del bot.",
+	name: 'plantillaEMBED',
+	description: "Descripcion Comando",
 	type: ApplicationCommandType.ChatInput,
 	cooldown: 3000,
 	run: async (client, interaction) => {
